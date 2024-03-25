@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Effects</title>
+    <style>
+        button {
+            border-radius: 4px;
+            border: 1px solid green;
+            background-color: white;
+            color: green;
+            padding: 10px 12px;
+        }
+
+        button:hover {
+            color: white;
+            background-color: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is simple paragraph</p>
+    <button id="hide">Hide Above Paragraph</button>
+    <button id="show">Show Paragraph</button>
+
+    <hr>
+
+
+    <!-- toggle  -->
+    <button id="show-content">Display/Hide Content</button>
+    <div id="collapse">
+        <h4>Rent Car in Reasonable Price</h4>
+        <p>Pariatur aute nostrud occaecat eiusmod mollit. Qui ut elit pariatur exercitation. Eiusmod nostrud eiusmod
+            esse nulla ipsum reprehenderit minim excepteur.
+
+            Irure voluptate sit laboris ullamco consequat ut reprehenderit. Sunt amet quis culpa Lorem commodo magna
+            deserunt id culpa incididunt. Consectetur anim culpa exercitation ex labore voluptate duis consectetur eu.
+            Ullamco ipsum adipisicing qui fugiat velit tempor eiusmod ullamco pariatur tempor ea. Veniam labore ullamco
+            sit quis amet qui laborum laborum cupidatat laborum ex. Id enim dolore Lorem velit ex aliqua minim commodo
+            elit aute nostrud amet magna aliquip. Ex veniam ipsum anim nulla eiusmod consequat adipisicing ex deserunt
+            amet.
+
+            Ut excepteur culpa id consectetur eu. Voluptate do cupidatat minim culpa enim exercitation. Aliqua nisi id
+            nisi veniam. Officia elit reprehenderit sunt eiusmod deserunt tempor cupidatat deserunt labore cillum
+            commodo. Esse ipsum fugiat exercitation in laborum.
+
+            Eiusmod laborum amet amet exercitation culpa in. Commodo deserunt duis exercitation laboris non sint nulla
+            sit nulla dolor dolor labore eu deserunt. Veniam velit cillum eiusmod Lorem aute dolore aute elit cupidatat
+            sint laborum.</p>
+    </div>
+
+    <hr>
+
+    <!-- jQuery Fade -->
+    <!-- fadeIn() -->
+    <button id="fade-in">Click</button>
+    <div style="height: 100px; width: 100px; background-color: blue; display: none;" id="blue-box"></div>
+
+    <hr>
+
+    <!-- fadeOut() -->
+    <button id="fade-out">Click</button>
+    <div style="height: 100px; width: 100px; background-color: orange; margin-top: 10px;" id="orange-box"></div>
+
+    <hr>
+
+
+    <!-- fadeToggle() -->
+    <button id="fade-toggle">Click</button>
+    <div style="height: 100px; width: 100px; background-color: red; margin-top: 10px;" id="red-box"></div>
+
+    <hr>
+
+    <!-- fadeTo() -->
+    <button id="fade-to">Click</button>
+    <div style="height: 100px; width: 100px; background-color: green; margin-top: 10px;" id="green-box"></div>
+
+    <hr>
+
+    <!-- Slide up -->
+    <button id="slide-up">Click to Slide Up</button>
+    <div id="flip-container-up" style="border: 1px solid black; border-radius: 2px; padding: 5px; margin-top: 10px;">
+        <h4>Rent Car in Reasonable Price</h4>
+        <p>Pariatur aute nostrud occaecat eiusmod mollit. Qui ut elit pariatur exercitation. Eiusmod nostrud eiusmod
+            esse nulla ipsum reprehenderit minim excepteur.
+        </p>
+    </div>
+
+    <hr>
+
+
+    <!-- slide down -->
+    <button id="slide-down">Click to Slide Down</button>
+    <div id="flip-container-down" style="display: none;">
+        <h4>Rent Car in Reasonable Price</h4>
+        <p>Pariatur aute nostrud occaecat eiusmod mollit. Qui ut elit pariatur exercitation. Eiusmod nostrud eiusmod
+            esse nulla ipsum reprehenderit minim excepteur.
+        </p>
+    </div>
+
+    <hr>
+
+    <!-- slide toggle -->
+    <button id="slide-toggle">Slide Toggle</button>
+    <div id="flip-container-toggle">
+        <h4>Rent Car in Reasonable Price</h4>
+        <p>Pariatur aute nostrud occaecat eiusmod mollit. Qui ut elit pariatur exercitation. Eiusmod nostrud eiusmod
+            esse nulla ipsum reprehenderit minim excepteur.
+        </p>
+    </div>
+    <hr>
+
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
